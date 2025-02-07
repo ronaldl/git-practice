@@ -10,7 +10,7 @@ requests==2.28.1
 pandas==1.5.2
 
 # NumPy for numerical operations
-numpy==1.23.1
+# numpy==1.23.1
 
 # Matplotlib for plotting (optional)
 matplotlib==3.6.2
