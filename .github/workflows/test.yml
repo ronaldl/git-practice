@@ -1,0 +1,16 @@
+name: CI Workflow
+
+# Trigger the workflow on push events
+on: [push]
+
+jobs:
+  build:
+    # Define the operating system for the virtual environment
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Check out the repository code so the workflow can access it
+      - uses: actions/checkout@v3
+
+      # Step 2: Run a simple command
+      - name: Say Hello
+        run: echo "Hello, world! This workflow ran because of a push event."
