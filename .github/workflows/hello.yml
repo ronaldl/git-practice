@@ -3,6 +3,8 @@ name: Hello
 # Trigger the workflow on push events
 on: [push]
 
+permissions: read-all
+
 jobs:
   build:
     # Define the operating system for the virtual environment
